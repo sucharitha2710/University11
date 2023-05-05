@@ -1,0 +1,425 @@
+h1
+{
+    margin-left:50px;
+    color:rgb(14, 2, 73);
+    font-style:oblique;
+    font-size:70px;
+    
+}
+
+.bodi{
+    overflow-x:hidden;
+}
+li
+{
+    display: inline;
+    padding: 18px;
+    margin-left: 90px;
+    color: #fff;
+}
+i
+{
+    color: rgb(248, 109, 62);
+}
+nav
+{
+    background-color:rgb(18, 84, 142);
+    padding: 15px;
+    position:sticky;
+    top: 10px;
+    z-index: 2;
+    font-size:20px;
+    border-radius:5px;
+
+}
+.logos{
+    margin-top:-80px;
+    margin-left:1430px;
+}
+.myyh1{
+margin-left:200px;
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.iii
+{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width:1800px;
+    
+}
+marquee
+{
+    color: #c90d0d;
+    background-color:rgb(181, 203, 250);
+    padding: 8px;
+    font-weight: 800;
+}
+
+/*---------------course-------------------*/
+.course
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1
+{
+    font-size: 36px;
+    font-weight: 600;
+}
+h2
+{
+    text-decoration: underline;
+}
+p
+{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.bold
+{
+    font-weight: 600;
+}
+.row
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col
+{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3
+{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*------------footer------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 1px 0;
+    height: 390px;
+    
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+/*-----------register------------*/
+.bg
+{
+    height: 600px;
+    position: sticky;
+    top:10px;
+    width:1600px;
+}
+.zoho
+{
+    height:770px;
+    width:600px;
+    margin-left: 450px;
+    position: absolute;
+    position: sticky;
+    top: 10px;
+}
+.footerfix
+{
+    position: absolute;
+    margin-top: 50px;
+    width: 1600px;
+}
+
+/*------------contact--------------*/
+
+.location{
+    width:100%;
+    padding:80px 0;
+    margin-left: 250px;
+}
+.queries{
+    margin-left: 100px;
+}
+.contact{
+    
+    background-color:rgb(244, 236, 125);
+    height:200px;
+    width:1500px;
+    font-size:200;
+    font-style:italic;
+    
+}
+.reg{
+    margin-left:100px ;
+    color:rgb(24, 4, 64);
+}
+.mob{
+    font-size:25px;
+    margin-left:100px ;
+    color:rgb(128, 0, 41)
+
+}
+.mail{
+    font-size:20px;
+    color:rgb(9, 9, 9);
+    margin-left:150px;
+}
+.hh{
+    margin-left:900px;
+    margin-top:-160px ;
+}
+.regi{
+    margin-top:10px ;
+    margin-left:900px;
+    color:rgb(24, 4, 64)
+}
+.mobi{
+    font-size:25px;
+    margin-left:900px ;
+    margin-top:-5;
+    color:rgb(128, 0, 41)
+}
+    .maill{ 
+        font-size:20px;
+        color:rgb(9, 9, 9);
+        margin-left:1000px;   
+    }
+
+/*----------departments----------*/
+.maint
+{
+    margin-left: 370px;
+    font-size: 20px;
+}
+.dept
+{
+    width:500px;
+    height:300px;
+    padding: 10px;
+}
+.deptc
+{
+    background-color:blanchedalmond;
+}
+.style{
+    font-weight: 1000;
+}
+.tem
+{
+    margin-left: 400px;
+}
+
+/*-------------------------------facilities-----------------------------------*/
+
+.gig{
+    color:rgb(122, 126, 14);
+    
+    font-size:70px;
+    width:1100px;
+    margin-left:200px;
+    border-radius:7px ;
+    margin-top:50px;
+}
+.facilities
+{
+    background-color: rgb(249, 223, 193);
+}
+.hostel{
+    height:250px;
+    width:250px;
+    margin-left:50px ;
+ 
+}
+
+.head{
+    margin-left: 80px;
+}
+.h22{
+color:red;
+margin-left:150px;
+}
+*h33{
+    color:rgb(51, 0, 255);
+           margin-left:200px;
+           margin-top:100px;
+
+    }
+        
+      .img2{
+        margin-left:50px;
+        margin-top:130px;
+      height: 250px;
+      width: 250px;                                    
+                                               
+                                            }
+                                            .img9
+                                             {
+                                                margin-left: 50px;
+                                                margin-top:90px;
+                                                height: 250px;
+                                                width: 250px;  
+                                             }
+                                            .img1{
+                                                margin-left:-370px;
+                                                margin-top:150px;
+                                                height: 250px;
+                                                width: 250px;
+
+                                            }
+                                        .p2{
+                                            margin-left:400px;
+                                            margin-top:-150px;
+                                        }
+                                        .pp{
+                                            margin-left: 400px;
+                                            margin-top:-200px ;
+                                        }
+                                        .p3{
+                                            margin-left:400px;
+                                            margin-top:-200px;
+                                        }
+                                        .img3{
+                                            margin-left:50px;
+                                            margin-top:80px;
+                                            height: 250px;
+                                            width: 250px;
+                                        
+                                        }
+                                        .p4{
+                                           margin-left:400px; ;
+                                            margin-top:-150px;
+                                        }
+                                        .p1{
+                                           
+                                            margin-top:400px;
+                                            margin-left:500px;
+                                        }
+                                        .pe{
+                                            margin-left:400px;
+                                            margin-top:-100px;
+
+                                        }
+                                       .audii{
+                                        margin-left:400px;
+                                        margin-top:30px;
+                                      
+                                        }
+                                .sprt{ 
+                                    margin-left:400px;
+                                    margin-top:-200px;
+
+                                }
+                                .img6{
+                                    height:250px;
+                                    width:250px;
+                                    margin-left:50px;
+                                    margin-top:50px;
+
+                                }
+                                .img7{
+                                    height:250px;
+                                    width:250px;
+                                    margin-left:50px;
+                                    margin-top:100px;
+                                }
+                                .waiti{
+                                    margin-left:400px;
+                                    margin-top:-150px;
+
+                                }
+                                .img10{
+                                    height:250px;
+                                    width:250px;
+                                    margin-left:50px;
+                                    margin-top:-120px;
+                                }
+                                .img8{
+                                    height:250px;
+                                    width:250px;
+                                    margin-left:50px;
+                                }
+                                .semii{
+                                    margin-top:-150px;
+                                    margin-left:400px;
+                                }
+        
+                                    
+                                        

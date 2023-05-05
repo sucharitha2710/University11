@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num=520,rem,sum=0,fact=1,copy=num;
+        while(num!=0)
+        {
+            rem = num%10;
+             fact=1;
+        for(i=1;i<=rem;i++)
+        {
+            fact=fact*i;
+        }
+        sum+=fact;
+        num=parseInt(num/10);
+        }
+        if(sum==copy)
+        {
+           document.write(copy+"<br>","it is strong num");
+        }
+        else
+        {
+            document.write(copy+"<br>","it is not a strong num");
+        }
+
+     </script>
+</body>
+</html>
